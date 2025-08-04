@@ -1,0 +1,97 @@
+@media (max-width: 767px) {
+  .hero_section {
+    height: 400px;
+  }
+
+  .image-container {
+    height: 400px;
+  }
+
+  .image-container img {
+    height: 400px;
+  }
+
+  .hero_text {
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .hero_text h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero_text p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .button {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Book_table,
+  .explore_menu {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero_section {
+    height: 600px;
+  }
+
+  .image-container {
+    height: 600px;
+  }
+
+  .image-container img {
+    height: 600px;
+  }
+
+  .hero_text h1 {
+    font-size: 3rem;
+  }
+
+  .hero_text p {
+    font-size: 1.1rem;
+  }
+
+  .Book_table,
+  .explore_menu {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 2042px) {
+  .hero_section {
+    height: 800px;
+  }
+
+  .image-container,
+  .image-container img {
+    height: 800px;
+  }
+
+  .hero_text {
+    max-width: 650px;
+  }
+
+  .hero_text h1 {
+    font-size: 5rem;
+  }
+
+  .hero_text p {
+    font-size: 1.4rem;
+  }
+
+  .Book_table,
+  .explore_menu {
+    font-size: 1.2rem;
+    padding: 14px 30px;
+  }
+}
