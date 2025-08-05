@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.why_choose_us{
+    width: 100%;
+    padding: 60px 50px ;
+    background-color: White;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why_choose_us_container{
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.why_choose_us_card{
+    display: flex;
+    padding: 20px 0px;
+
+}
+.why_choose_us_card img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+.why_choose_us_card_text h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.why_choose_us_card_text p{
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.2;
+    font-family: sans-serif;
+}

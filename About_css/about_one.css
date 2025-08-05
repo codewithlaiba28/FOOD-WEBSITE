@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.about_section_one{
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+.about_section_one_image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.about_section_one_image h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    max-width: 500px;
+    font-family: 'Playfair Display', serif;
+}
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(100px) scale(0.8); 
+  transition: all 1s ease;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1); 
+}
+
+.about_section_one_image:hover img {
+  filter: brightness(1.7);
+  transition: filter 0.3s ease;
+}

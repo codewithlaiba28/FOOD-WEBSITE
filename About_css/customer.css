@@ -1,0 +1,88 @@
+.customer_section {
+  padding: 100px 0px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.customer_section h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+}
+
+.customer_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px) scale(0.9);
+  transition: all 0.6s ease;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.customer_card {
+  background-color: #f9f9f9;
+  padding: 30px 25px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.customer_card:hover {
+  transform: translateY(-5px);
+}
+
+
+.customer_card h3 {
+  color: #c4002d;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.customer_card p {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.customer_info {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.customer_image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.customer_Text h4 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.customer_Text p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #777;
+}

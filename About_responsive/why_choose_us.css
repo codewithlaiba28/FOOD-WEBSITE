@@ -1,0 +1,172 @@
+@media (max-width:1252px) {
+    .why_choose_us {
+        width: 100%;
+        padding: 60px 0px;
+        background-color: White;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why_choose_us_card_text p {
+        font-size: 0.90rem;
+        color: #333;
+        line-height: 1.2;
+        font-family: sans-serif;
+    }
+}
+
+@media (max-width:1034px) {
+    .why_choose_us {
+        width: 100%;
+        padding: 60px 0px;
+        background-color: White;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why_choose_us_card_text p {
+        font-size: 0.80rem;
+        color: #333;
+        line-height: 1.2;
+        font-family: sans-serif;
+    }
+
+    .why_choose_us_card img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        margin-right: 15px;
+        margin-top: 2px;
+    }
+
+    .why_choose_us_card_text h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+    }
+}
+
+@media (max-width:916px) {
+    .why_choose_us {
+        width: 100%;
+        padding: 40px 0px;
+        background-color: White;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why_choose_us_card_text p {
+        font-size: 0.80rem;
+        color: #333;
+        line-height: 1.2;
+        font-family: sans-serif;
+    }
+
+    .why_choose_us_container {
+        width: 90%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .why_choose_us_card img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+
+    .why_choose_us_card_text h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+    }
+}
+
+@media (max-width:872px) {
+    .why_choose_us_card {
+        padding: 20px;
+        border: #b6afaf solid 1px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .why_choose_us_card img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .why_choose_us_card_image {
+        background-color: #f8f8f8;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* margin:2px 15px 20px ; */
+    }
+
+    .why_choose_us_card_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .why_choose_us_card_text h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #b3002d;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+    }
+}
+@media (max-width:694px) {
+    .why_choose_us_card {
+        padding:20px 5px;
+        border: #b6afaf solid 1px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .why_choose_us_container{
+    width: 90%;
+    display: flex;
+    gap: 30px;
+}
+}
+@media (max-width:595px) {
+    .why_choose_us_container{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.why_choose_us_card{
+    display: flex;
+    padding: 20px ;
+
+}
+}
