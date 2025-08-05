@@ -1,7 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: white;
   color: #474747;
@@ -9,23 +10,26 @@ header {
   display: flex;
   align-items: center;
   padding: 0px 20px;
-   /* position: fixed;     
+  /* position: fixed;     
   top: 0;               
   left: 0;
   width: 100%;       
   z-index: 999;       */
 
 }
+
 .logo {
   display: flex;
   align-items: center;
-  margin:0px 70px 0px 30px;
+  margin: 0px 70px 0px 30px;
 }
+
 .logo img {
   height: 40px;
   width: 40px;
 }
-.logo p{
+
+.logo p {
   font-weight: 600;
   margin-left: 0px;
   font-size: xx-large;
@@ -37,9 +41,10 @@ ul {
   list-style-type: none;
   margin: 0px 40px 0px 200px;
 }
+
 li {
   margin: 0px 4px;
-  padding:8px 18px;
+  padding: 8px 18px;
   border-radius: 20px;
   font-size: medium;
   font-family: sans-serif;
@@ -50,6 +55,7 @@ li:hover {
   transition: 0.5s;
   color: #DBDFD0;
 }
+
 .book-table {
   color: #b3002d;
   padding: 10px 20px;
@@ -60,20 +66,24 @@ li:hover {
   border: 1px solid #b3002d;
   background-color: white;
 }
+
 .book-table:hover {
   background-color: #b3002d;
   border: 1px solid #DBDFD0;
   transition: 0.5s;
   color: #DBDFD0;
 }
+
 .Home {
-    background-color: #b3002d;
+  background-color: #b3002d;
   transition: 0.5s;
   color: #DBDFD0;
 }
-.small_button{
+
+.small_button {
   display: none;
 }
+
 .close_button {
   display: none;
 }

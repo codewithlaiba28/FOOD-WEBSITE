@@ -12,11 +12,11 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .about_text {
-  flex: 1 1 400px; 
+  flex: 1 1 400px;
 }
 
 .about_text h2 {
@@ -67,5 +67,3 @@
 .about_image img:hover {
   transform: scale(0.9);
 }
-
-
