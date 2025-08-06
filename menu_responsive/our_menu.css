@@ -1,0 +1,48 @@
+@media (max-width:806px) {
+    .our_menu{
+    width: 100%;
+    padding: 50px 70px;
+    background-color: white;
+    text-align: center;
+}
+.our_menu_p p {
+    font-size: 1rem;
+  line-height: 1.2;
+  color: #555;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+    
+}
+@media (max-width:650px) {
+        .our_menu{
+    width: 100%;
+    padding: 50px 70px;
+    background-color: white;
+    text-align: center;
+}
+.our_menu_p p {
+    font-size: 1rem;
+  line-height: 1.2;
+  color: #555;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+}
+@media (max-width:446px) {
+    .our_menu{
+    width: 100%;
+    padding: 50px ;
+    background-color: white;
+    text-align: center;
+}
+}
+@media (max-width:410px) {
+    .our_menu{
+    width: 100%;
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+}
