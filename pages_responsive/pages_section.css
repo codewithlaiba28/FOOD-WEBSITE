@@ -1,0 +1,64 @@
+@media (max-width: 1024px) {
+    .pages_section {
+        padding: 60px 60px;
+    }
+
+    .pages_section_container h1 {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .pages_section_complete h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pages_section {
+        padding: 50px 30px;
+    }
+
+    .pages_section_container h1 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .pages_section_complete h2 {
+        font-size: 1.2rem;
+    }
+
+    .pages_section_complete p,
+    .pages_section_text p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .pages_section_container img {
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pages_section {
+        padding: 40px 15px;
+    }
+
+    .pages_section_container h1 {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        margin-bottom: 20px;
+    }
+
+    .pages_section_complete h2 {
+        font-size: 1.1rem;
+    }
+
+    .pages_section_complete p,
+    .pages_section_text p {
+        font-size: 0.9rem;
+    }
+
+    .pages_section_container img {
+        border-radius: 15px;
+    }
+}
